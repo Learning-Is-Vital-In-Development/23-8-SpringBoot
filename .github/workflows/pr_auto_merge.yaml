@@ -14,4 +14,4 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
           MERGE_LABELS: ""
           MERGE_METHOD: "squash"
-          LOG: "debug"
+          LOG: "DEBUG"
