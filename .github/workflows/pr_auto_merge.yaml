@@ -13,5 +13,3 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
           MERGE_LABELS: ""
           MERGE_METHOD: "squash"
-          MERGE_COMMIT_MESSAGE: "pull-request-title"
-          LOG: "DEBUG"
