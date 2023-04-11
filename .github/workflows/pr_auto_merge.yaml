@@ -1,8 +1,7 @@
 name: PR auto merge
 on:
   schedule:
-    - cron: '0 0 * * 1' # 매주 월요일 0시(UTC) -> 매주 월요일 오전 9시(KST) 9시간 시차존재
-  workflow_dispatch:
+    - cron: '15 22 * * *' # 매주 월요일 0시(UTC) -> 매주 월요일 오전 9시(KST) 9시간 시차존재
 jobs:
   automerge:
     runs-on: ubuntu-latest
@@ -14,4 +13,5 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
           MERGE_LABELS: ""
           MERGE_METHOD: "squash"
+          MERGE_COMMIT_MESSAGE: "pull-request-title"
           LOG: "DEBUG"
