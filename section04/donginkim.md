@@ -97,7 +97,7 @@ dependencies {
 
 - 위 라이브러리에서 버전을 관리한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71b32bdc-7a61-4a89-b729-158d91f5259a/Untitled.png)
+![image](https://user-images.githubusercontent.com/66561524/232308340-b98f33e4-0857-486b-bfe1-a5e93199c650.png)
 
 - bom 이라는 항목이 있고 각각의 라이브러리에 대한 버전이 명시되어있다.
 - 현재 프로젝트에서 지정한 스프링 부트 버전을 참고한다.
@@ -139,6 +139,8 @@ dependencies {
 - 웹을 사용하고 싶으면 `spring-boot-starter-web`
 - JPA를 사용하고 싶으면 `spring-boot-starter-data-jpa`
 
+![image](https://user-images.githubusercontent.com/66561524/232308377-54159e90-f7a7-41ab-9f45-2519f6fd0968.png)
+
 
 스프링부트 스타터 - 이름 패턴
 
@@ -163,4 +165,4 @@ ext['tomcat.version']='10.1.4'
 
 앞의 외부 라이브러리 이름을 여기서 확인한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cacc8036-1a22-4250-8ba4-052277f3a02f/Untitled.png)
+![image](https://user-images.githubusercontent.com/66561524/232308402-df78d058-183a-4340-954c-a218ce23cec4.png)
