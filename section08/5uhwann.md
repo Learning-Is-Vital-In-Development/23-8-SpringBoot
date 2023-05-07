@@ -43,7 +43,7 @@ management:
     endpoints:
       web:
         exposure:
-		  include: "*"
+	  include: "*"
 ```
 
 - 액츄에이터가 제공하는 기능 하나하나를 엔드포인트라고 한다.
